@@ -1,11 +1,13 @@
 import React from 'react'
-import AudioRecorder from './AudioRecorder'
+// import AudioRecorder from './AudioRecorder'
+import Layout from './Layout'
 
 const App = () => {
   return (
-    <div>
-      <h1>Audio Recorder</h1>
-      <AudioRecorder />
+    <div className='container mx-auto'>
+      {/* <h1 className='text-xl text-red-500'>Audio Recorder</h1>
+      <AudioRecorder /> */}
+      <Layout />
     </div>
   )
 }
