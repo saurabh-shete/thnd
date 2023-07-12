@@ -2,7 +2,7 @@ import React from 'react'
 import icon from "../icon.png"
 function Header() {
     return (
-        <div className='h-[3.75rem] bg-[#f3f2f2] p-4 sm:p-20  flex flex-col items-center justify-center rounded'>
+        <div className=' bg-[#f3f2f2] p-4 flex flex-col items-center justify-center rounded'>
             <div className='flex items-center justify-center gap-2 cursor-pointer'>
                 <img src={icon} alt='logo' className='w-12' />
                 <h1 className='text-2xl sm:text-3xl font-bold'>Krishi AI</h1>
